@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# uv
+.venv/
+
+# Manim render output
+media/
+
+# TTS cache (managed by KokoroService / test_tts.py)
+.tts_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
