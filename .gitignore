@@ -19,3 +19,18 @@ media/
 .vscode/
 .idea/
 *.swp
+
+# Model artifacts (use Git LFS or external storage for weights)
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.ckpt
+
+# Large dataset dirs (raw + curated training data)
+Datasets/raw/
+Datasets/curated/
+
+# Note: Datasets/eval/ and Models/eval_results/ are intentionally tracked
+# (held-out evaluation data and benchmark results must be versioned).
