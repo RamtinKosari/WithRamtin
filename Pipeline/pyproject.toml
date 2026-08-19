@@ -1,0 +1,18 @@
+[project]
+name = "withramtin-pipeline"
+version = "0.1.0"
+description = "Production pipeline for the WithRamtin channel."
+requires-python = ">=3.11"
+dependencies = [
+    "manim>=0.18",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
